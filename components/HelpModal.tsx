@@ -29,12 +29,6 @@ const HelpModal: React.FC<HelpModalProps> = ({ isOpen, onClose }) => {
         <p className="text-gray-300">
           注意：如果使用官方Gemini API，是会产生费用的。请谨慎使用。
         </p>
-        <p className="text-gray-300">
-           <a href="https://cnb.build/no.1/api/-/issues/2" target="_blank" rel="noopener noreferrer" className="font-bold underline hover:text-cyan-200">极具性价比API平台</a>。
-        </p>
-        <p className="text-gray-300">
-           <a href="https://cnb.build/no.1/api/-/issues/1" target="_blank" rel="noopener noreferrer" className="font-bold underline hover:text-cyan-200">欢迎交流及定制</a>。
-        </p>
       </div>
     </div>
   );

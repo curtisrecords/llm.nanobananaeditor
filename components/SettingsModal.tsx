@@ -60,9 +60,6 @@ const SettingsModal: React.FC<SettingsModalProps> = ({ isOpen, onClose, onSave }
         <div className="text-yellow-300/80 bg-yellow-900/20 border border-yellow-700/50 p-3 rounded-lg text-sm mb-4">
           <b>请注意：</b>使用您自己的 Google Gemini API 密钥将会产生费用。如果留空，应用将尝试使用系统配置的免费 API。
         </div>
-        <div className="text-cyan-300/80 bg-cyan-900/20 border border-cyan-700/50 p-3 rounded-lg text-sm mb-6">
-            <b>通知：</b>我们提供高性价比且稳定的 Nano Banana 图片生成 API，详情请访问 <a href="https://cnb.build/no.1/api/-/issues/2" target="_blank" rel="noopener noreferrer" className="font-bold underline hover:text-cyan-200">极具性价比API平台</a>。
-        </div>
 
         <div className="flex flex-col gap-4">
             <div className="flex flex-col gap-2">
@@ -94,7 +91,7 @@ const SettingsModal: React.FC<SettingsModalProps> = ({ isOpen, onClose, onSave }
                         setBaseUrl(e.target.value);
                         setIsSaved(false);
                     }}
-                    placeholder="例如: https://apis.kuai.host/"
+                    placeholder="例如: https://example.com/"
                     className="bg-gray-900 border border-gray-600 text-gray-200 rounded-lg p-3 focus:ring-2 focus:ring-blue-500 focus:outline-none transition"
                 />
             </div>
